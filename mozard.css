@@ -125,8 +125,8 @@ td.hover a {
 div#moz_actie > div.knopOpmaak {
       border-right: 0px;
 }
-div.mozWizard.mozWizard-2stappen {
-      width:945px;
+div.mozWizard {
+      width:945px !important;
 }
 ul.wizard-stappen {
       float:left;
@@ -149,8 +149,7 @@ ul.wizard-stappen {
       margin-right: 0;
       text-decoration: underline;
 }
-.wizard-stappen li.wizard-stap-onvoltooid a,
-.wizard-stappen li.wizard-stap-onvoltooid div {
+.wizard-stappen li.wizard-stap-onvoltooid a, .wizard-stappen li.wizard-stap-onvoltooid a:hover, .wizard-stappen li.wizard-stap-onvoltooid div {
       /*background-color: #3b9fdb;*/
       
       background-color: #a8a9a3;
@@ -158,8 +157,9 @@ ul.wizard-stappen {
       
       color: #fff;
 }
-.wizard-stappen li.wizard-stap-gereed a {
+.wizard-stappen li.wizard-stap-gereed a, .wizard-stappen li.wizard-stap-gereed a:hover {
       background-color: #34B233;
+      color: #FFF;
 }
 .wizard-stappen div::before,
 .wizard-stappen a::before,
