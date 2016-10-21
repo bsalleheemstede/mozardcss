@@ -172,19 +172,9 @@ ul.wizard-stappen li.wizard-stap-onvoltooid div {
 }
 /* Extra aanpassingen na feedback Levent */
 
-#moz_content td.TabelKol1, #moz_content table.tabel2 td.TabelKol1, #moz_content table.tabel2 td.TabelKol1:first-child {
-    width: 282px;
-}
 
 #moz_content td.TabelKol2, #moz_content td.TabelKol2:last-child {
  	padding: 2px 10px;
-}
-
-#moz_content td.TabelKol2, #moz_content td.TabelKol2 input[type=text]{
-    width: 282px;
-}
-#moz_content td.TabelKol2 input[type=text].datumveld {
-    width: 95%;
 }
 
 .mozWizard-4stappen .wizard-stappen div, .mozWizard-4stappen .wizard-stappen a {
@@ -220,7 +210,4 @@ div.afgerondeopmaak1.tabel3 {
 .afgerondeopmaak2 table.tabel1 td {
       padding: 0px 0 0 10px;
       border-bottom: 0;
-}
-.afgerondeopmaak2 table.tabel2 tr td.TabelKol2 {
-      width: 160px;
 }
