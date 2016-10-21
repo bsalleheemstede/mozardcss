@@ -197,6 +197,12 @@ ul.wizard-stappen li.wizard-stap-onvoltooid div {
     width: 12.5%;
 }
 
+/* Extra css na livegang */
+
+div#moz_logo {
+  background: none;
+}
+
 /* Naar schermspecifiek: 1013 */
 /* Doorlooptijd verwijderen */
 
