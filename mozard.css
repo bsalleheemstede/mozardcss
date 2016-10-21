@@ -1,3 +1,5 @@
+/* Code van Bart */
+
 html {
       background-color: #e7e7e7;
       background-image: none;
@@ -39,7 +41,7 @@ div#moz_hoofdmenu {
       width: 945px;
 }
 div#moz_hoofdmenu ul li {
-      margin-right: 0px;
+	margin-right: 0px;
       margin-left: 0px;
 }
 div#moz_hoofdmenu ul li a {
@@ -126,20 +128,20 @@ div#moz_actie > div.knopOpmaak {
       border-right: 0px;
 }
 div.mozWizard {
-      width:945px !important;
+	width:945px !important;
 }
 ul.wizard-stappen {
-      float:left;
+	float:left;
       width: 945px;
       background-color: #a8a8a5;
       margin-left:0;
       padding-left:0;
 }
 .wizard-stappen div, .wizard-stappen a {
-      background-color: #a8a8a5;
+	background-color: #a8a8a5;
 }
 .wizard-stappen .wizard-stap-actief a, .wizard-stappen .wizard-stap-actief div {
-      background-color: #002395;
+	background-color: #002395;
       color: #FFF;
 }
 .wizard-stappen li a span {
@@ -151,15 +153,16 @@ ul.wizard-stappen {
 }
 .wizard-stappen li.wizard-stap-onvoltooid a, .wizard-stappen li.wizard-stap-onvoltooid a:hover, .wizard-stappen li.wizard-stap-onvoltooid div {
       /*background-color: #3b9fdb;*/
-      
+
       background-color: #a8a9a3;
       /*background-color: #34B233;*/
-      
+
       color: #fff;
 }
-.wizard-stappen li.wizard-stap-gereed a, .wizard-stappen li.wizard-stap-gereed a:hover {
+.wizard-stappen li.wizard-stap-gereed a, .wizard-stappen li.wizard-stap-gereed a:hover, .wizard-stappen li.wizard-stap-gereed div, .wizard-stappen li.wizard-stap-gereed div:hover {
       background-color: #34B233;
       color: #FFF;
+  	  margin-right: 0;
 }
 .wizard-stappen div::before,
 .wizard-stappen a::before,
@@ -171,12 +174,51 @@ ul.wizard-stappen li.wizard-stap-actief div,
 ul.wizard-stappen li.wizard-stap-onvoltooid div {
       margin-right: 0;
 }
+/* Extra aanpassingen na feedback Levent */
+
+#moz_content td.TabelKol1, #moz_content table.tabel2 td.TabelKol1, #moz_content table.tabel2 td.TabelKol1:first-child {
+ 	   /*width: 235px !important;*/
+    width: 30% !important;
+}
+
+#moz_content td.TabelKol2, #moz_content td.TabelKol2:last-child {
+ 	padding: 2px 10px;
+}
+
+#moz_content td.TabelKol2, #moz_content td.TabelKol2 input[type=text]{
+ 	/*width: 330px;*/
+    width: 100%;
+}
+#moz_content td.TabelKol2 input[type=text].datumveld {
+    width: 95%;
+}
+
+.mozWizard-4stappen .wizard-stappen div, .mozWizard-4stappen .wizard-stappen a {
+    width: 25%;
+}
+
+.mozWizard-5stappen .wizard-stappen div, .mozWizard-5stappen .wizard-stappen a {
+    width: 20%;
+}
+
+.mozWizard-6stappen .wizard-stappen div, .mozWizard-6stappen .wizard-stappen a {
+    width: 16.66%;
+}
+
+.mozWizard-7stappen .wizard-stappen div, .mozWizard-7stappen .wizard-stappen a {
+    width: 14.28%;
+}
+
+.mozWizard-8stappen .wizard-stappen div, .mozWizard-8stappen .wizard-stappen a {
+    width: 12.5%;
+}
+
 /* Naar schermspecifiek: 1013 */
 /* Doorlooptijd verwijderen */
 
 div.mozTabelKop:nth-child(4n),
 div.afgerondeopmaak1.tabel3 {
-      display: none;
+      /*display: none;*/
 }
 .afgerondeopmaak2 table.tabel1 tr {
       height: 16px !important;
