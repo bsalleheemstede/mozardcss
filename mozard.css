@@ -152,11 +152,7 @@ ul.wizard-stappen {
       text-decoration: underline;
 }
 .wizard-stappen li.wizard-stap-onvoltooid a, .wizard-stappen li.wizard-stap-onvoltooid a:hover, .wizard-stappen li.wizard-stap-onvoltooid div {
-      /*background-color: #3b9fdb;*/
-
       background-color: #a8a9a3;
-      /*background-color: #34B233;*/
-
       color: #fff;
 }
 .wizard-stappen li.wizard-stap-gereed a, .wizard-stappen li.wizard-stap-gereed a:hover, .wizard-stappen li.wizard-stap-gereed div, .wizard-stappen li.wizard-stap-gereed div:hover {
@@ -177,8 +173,7 @@ ul.wizard-stappen li.wizard-stap-onvoltooid div {
 /* Extra aanpassingen na feedback Levent */
 
 #moz_content td.TabelKol1, #moz_content table.tabel2 td.TabelKol1, #moz_content table.tabel2 td.TabelKol1:first-child {
- 	   /*width: 235px !important;*/
-    width: 30% !important;
+    width: 282px;
 }
 
 #moz_content td.TabelKol2, #moz_content td.TabelKol2:last-child {
@@ -186,8 +181,7 @@ ul.wizard-stappen li.wizard-stap-onvoltooid div {
 }
 
 #moz_content td.TabelKol2, #moz_content td.TabelKol2 input[type=text]{
- 	/*width: 330px;*/
-    width: 100%;
+    width: 282px;
 }
 #moz_content td.TabelKol2 input[type=text].datumveld {
     width: 95%;
