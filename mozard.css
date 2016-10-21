@@ -18,7 +18,8 @@ div#moz_hoofdmenu {
       background-color: #002395 !important;
 }
 div#moz_kop {
-      background-image: url(3gsi_banner.png) center bottom no-repeat;
+      /*background-image: url(3gsi_banner.png) center bottom no-repeat;*/
+      background-image: url('header.png');
       background-repeat: no-repeat;
       height: 221px;
       position: relative;
